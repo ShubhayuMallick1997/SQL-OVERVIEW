@@ -1,7 +1,7 @@
 <p align="center">
-  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/ave70r0yv-removebg-preview.png" alt="PySpark Cover" width="25%" />
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/aw8jk2e42-removebg-preview.png" alt="PySpark Cover" width="18%" />
   <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/ezgif-5a997e59bd6be0.gif" alt="PySpark Cover" width="45%" />
-  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/awgqxxx5d-removebg-preview.png" alt="PySpark Cover" width="25%" />
+  <img src="https://github.com/ShubhayuMallick1997/ShubhayuMallick1997/blob/main/awgqxxx5d-removebg-preview.png" alt="PySpark Cover" width="22%" />
 </p> 
 
 ---
