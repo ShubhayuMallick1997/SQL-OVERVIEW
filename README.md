@@ -14,26 +14,62 @@ Welcome to the **SQL Overview** repository! I'm Shubhayu Mallick, and I'm excite
 
 ---
 
-## 📝 **Table of Contents**
+Here’s the structured list of SQL and database topics in a tabular format:
 
-| **S.No** | **Topic**                                                            | **Description**                                                                |
-| -------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 1        | [Introduction to SQL](#1-introduction-to-sql)                        | Overview of SQL and its importance in database management                      |
-| 2        | [Basic SQL Queries](#2-basic-sql-queries)                            | Fundamentals of writing basic SQL queries                                      |
-| 3        | [Filtering and Sorting Data](#3-filtering-and-sorting-data)          | Techniques to filter and sort your data efficiently                            |
-| 4        | [SQL Functions](#4-sql-functions)                                    | In-depth look at aggregate, string, date, and mathematical functions           |
-| 5        | [Joins](#5-joins)                                                    | Introduction to various types of joins for combining data from multiple tables |
-| 6        | [Subqueries](#6-subqueries)                                          | Understanding subqueries and their use cases                                   |
-| 7        | [Group By and Having](#7-group-by-and-having)                        | Using `GROUP BY` and `HAVING` to organize and filter aggregated data           |
-| 8        | [Insert, Update, Delete](#8-insert-update-delete)                    | Basic data modification operations in SQL                                      |
-| 9        | [Advanced SQL Queries](#9-advanced-sql-queries)                      | Dive deeper into complex queries like joins, subqueries, and more              |
-| 10       | [Window Functions](#10-window-functions)                             | Advanced concepts like ROW\_NUMBER, RANK, and LAG using window functions       |
-| 11       | [Indexes and Optimization](#11-indexes-and-optimization)             | Understanding indexing and how to optimize your queries                        |
-| 12       | [Transactions and Concurrency](#12-transactions-and-concurrency)     | Managing data integrity and isolation through transactions                     |
-| 13       | [Stored Procedures and Triggers](#13-stored-procedures-and-triggers) | Using stored procedures and triggers to automate tasks                         |
-| 14       | [Database Security](#14-database-security)                           | Ensuring the security of your SQL database                                     |
-| 15       | [Data Warehousing Concepts](#15-data-warehousing-concepts)           | Key concepts in building and managing data warehouses                          |
-| 16       | [Big Data SQL](#16-big-data-sql)                                     | SQL usage in Big Data environments like Hadoop and NoSQL databases             |
+### **Basic SQL Topics**
+
+| **S.No** | **Topic**                      | **Description**                                                                         |
+| -------- | ------------------------------ | --------------------------------------------------------------------------------------- |
+| 1        | **Introduction to SQL**        | What is SQL, SQL Syntax and Structure, SQL Data Types                                   |
+| 2        | **Database Basics**            | Database vs. DBMS vs. RDBMS, Relational Model, Tables, Rows, Columns, and Keys          |
+| 3        | **Basic SQL Queries**          | SELECT Statement, WHERE Clause, DISTINCT, LIMIT/OFFSET                                  |
+| 4        | **Filtering Data**             | Comparison Operators, Logical Operators (AND, OR, NOT), LIKE, IN, BETWEEN, IS NULL      |
+| 5        | **Sorting Data**               | ORDER BY Clause, ASC and DESC                                                           |
+| 6        | **SQL Functions**              | Aggregate Functions, String Functions, Date Functions, Mathematical Functions           |
+| 7        | **Basic Joins**                | INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL OUTER JOIN                                      |
+| 8        | **Subqueries**                 | Subqueries in SELECT, WHERE, and FROM Clauses, Correlated vs. Non-correlated Subqueries |
+| 9        | **Group By and Having Clause** | GROUP BY Clause, HAVING Clause for Filtering Groups                                     |
+| 10       | **Insert, Update, Delete**     | INSERT INTO Statement, UPDATE Statement, DELETE Statement                               |
+
+---
+
+### **Intermediate SQL Topics**
+
+| **S.No** | **Topic**                                | **Description**                                                                                                   |
+| -------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| 1        | **Advanced Joins**                       | Self Join, CROSS JOIN, NATURAL JOIN                                                                               |
+| 2        | **Set Operations**                       | UNION, UNION ALL, INTERSECT, EXCEPT (or MINUS in some systems)                                                    |
+| 3        | **Normalization and Denormalization**    | 1NF, 2NF, 3NF, BCNF, Denormalization and its Use Cases                                                            |
+| 4        | **Indexes**                              | Creating Indexes, Unique vs Non-Unique Indexes, Indexing and Performance Optimization, Clustered vs Non-Clustered |
+| 5        | **Transactions and Concurrency Control** | ACID Properties, COMMIT, ROLLBACK, SAVEPOINT, Isolation Levels                                                    |
+| 6        | **Stored Procedures and Functions**      | Creating and Executing Stored Procedures, Input and Output Parameters, User-Defined Functions (UDF)               |
+| 7        | **Triggers**                             | Creating Triggers (BEFORE, AFTER), Trigger Events (INSERT, UPDATE, DELETE), Managing Trigger Actions              |
+| 8        | **Views**                                | Creating and Managing Views, Materialized Views, Views vs Tables vs Subqueries                                    |
+| 9        | **Data Integrity Constraints**           | PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK Constraint, NOT NULL                                                      |
+| 10       | **Data Types and Casting**               | Numeric Types, String Types, Date/Time Types, CAST, CONVERT                                                       |
+
+---
+
+### **Advanced SQL Topics**
+
+| **S.No** | **Topic**                             | **Description**                                                                                                                                  |
+| -------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1        | **Advanced Subqueries**               | EXISTS vs IN, Scalar Subqueries, Nested Subqueries                                                                                               |
+| 2        | **Advanced Joins and Set Operations** | Multiple Joins, Complex Join Conditions, Recursive Joins (using CTEs)                                                                            |
+| 3        | **Window Functions**                  | OVER() Clause, ROW\_NUMBER, RANK, DENSE\_RANK, NTILE, LEAD, LAG, PARTITION BY, ORDER BY                                                          |
+| 4        | **Common Table Expressions (CTEs)**   | Recursive CTEs, Inline Views, Using CTEs for Hierarchical Data                                                                                   |
+| 5        | **Full-Text Search**                  | Full-Text Indexes, SEARCH Conditions (CONTAINS, FREETEXT)                                                                                        |
+| 6        | **Database Optimization**             | Query Optimization Techniques, Execution Plans, Analyzing Index Usage, Optimizing Join Performance                                               |
+| 7        | **Replication and Sharding**          | Master-Slave Replication, Database Sharding and Partitioning, Data Consistency in Distributed Systems                                            |
+| 8        | **Database Security**                 | Roles and Permissions, GRANT and REVOKE Statements, Encryption in Databases, Auditing and Access Control                                         |
+| 9        | **Advanced Transactions**             | Distributed Transactions, Two-Phase Commit, Deadlocks and Lock Management                                                                        |
+| 10       | **Data Warehousing Concepts**         | OLAP vs OLTP, Star and Snowflake Schemas, ETL Processes (Extract, Transform, Load)                                                               |
+| 11       | **Big Data SQL**                      | SQL on Hadoop (Hive, Impala), SQL in NoSQL Databases (MongoDB, Cassandra)                                                                        |
+| 12       | **Database Administration**           | Backup and Recovery Strategies, High Availability and Failover Mechanisms, Database Partitioning and Clustering, Database Monitoring and Logging |
+
+---
+
+This table is designed to give you a clear progression from basic SQL concepts to more advanced topics. Let me know if you need more details on any specific topic!
 
 ---
 
